@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --sumi: #15130f;
+  --sumi-deep: #0d0c09;
+  --hanko: #b3232c;
+  --hanko-bright: #d43a3a;
+  --washi: #ede6d6;
+  --washi-dim: #d9d0ba;
+  --indigo: #232b45;
+  --indigo-deep: #171d30;
+  --brass: #9c7a3c;
+  --brass-bright: #c9a35f;
+
+  --font-display: "Shippori Mincho", serif;
+  --font-body: "Work Sans", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+@theme inline {
+  --color-sumi: var(--sumi);
+  --color-sumi-deep: var(--sumi-deep);
+  --color-hanko: var(--hanko);
+  --color-hanko-bright: var(--hanko-bright);
+  --color-washi: var(--washi);
+  --color-washi-dim: var(--washi-dim);
+  --color-indigo: var(--indigo);
+  --color-indigo-deep: var(--indigo-deep);
+  --color-brass: var(--brass);
+  --color-brass-bright: var(--brass-bright);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--sumi);
+  color: var(--washi);
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Belt-rank progression bar — the site's signature motif.
+   Colors follow the real Kitsune Ryu curriculum order: white through black. */
+.belt-bar {
+  display: flex;
+  width: 100%;
+  height: 6px;
+}
+.belt-bar > span {
+  flex: 1;
+}
+
+::selection {
+  background: var(--hanko);
+  color: var(--washi);
+}
+
+/* visible keyboard focus */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--brass-bright);
+  outline-offset: 3px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
