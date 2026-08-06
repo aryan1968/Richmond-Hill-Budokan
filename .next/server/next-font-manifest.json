@@ -1,0 +1,14 @@
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [],
+    "[project]/src/app/contact/page": [],
+    "[project]/src/app/instructors/page": [],
+    "[project]/src/app/legacy/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/programs/page": [],
+    "[project]/src/app/schedule/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

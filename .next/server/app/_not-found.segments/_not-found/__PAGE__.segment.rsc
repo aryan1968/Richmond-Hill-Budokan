@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/12x3j1b2_4zu2.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[97367,["/_next/static/chunks/12x3j1b2_4zu2.js"],"ViewportBoundary"]
+8:I[97367,["/_next/static/chunks/12x3j1b2_4zu2.js"],"MetadataBoundary"]
+9:I[27201,["/_next/static/chunks/12x3j1b2_4zu2.js"],"IconMark"]
+b:I[39756,["/_next/static/chunks/12x3j1b2_4zu2.js"],"default"]
+c:I[37457,["/_next/static/chunks/12x3j1b2_4zu2.js"],"default"]
+6:X
+e:X
+e:C
+0:{"buildId":"rQeJ9AnKr-oiOpmKDVAZU","data":[{"rsc":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Richmond Hill Budokan | Traditional Japanese Jiu-Jitsu, Karate & Wellness"}],["$","meta","1",{"name":"description","content":"Over 50 years training Richmond Hill in traditional Kitsune Ryu Jiu-Jitsu, OGKK Goju Ryu Karate, and Tai Chi & Qigong. Free trial classes for ages 5 and up."}],["$","meta","2",{"property":"og:title","content":"Richmond Hill Budokan | Honour Above All"}],["$","meta","3",{"property":"og:description","content":"Traditional Japanese Jiu-Jitsu, OGKK Goju Ryu Karate, and Tai Chi & Qigong in Richmond Hill, Ontario since 1973."}],["$","meta","4",{"property":"og:url","content":"https://www.rhjiujitsu.com"}],["$","meta","5",{"property":"og:site_name","content":"Richmond Hill Budokan"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Richmond Hill Budokan | Honour Above All"}],["$","meta","9",{"name":"twitter:description","content":"Traditional Japanese Jiu-Jitsu, OGKK Goju Ryu Karate, and Tai Chi & Qigong in Richmond Hill, Ontario since 1973."}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L9","11",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$6","varyParams":"$e"}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+4:null
+10:true
+6:300
+6:C
+f:0
+a:"$undefined"
+d:"$undefined"
+5:"$undefined"

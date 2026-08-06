@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/instructors/page": "/instructors",
+  "/legacy/page": "/legacy",
+  "/page": "/",
+  "/programs/page": "/programs",
+  "/schedule/page": "/schedule"
+}

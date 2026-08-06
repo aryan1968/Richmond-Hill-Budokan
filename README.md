@@ -18,6 +18,7 @@ live site; the design, copy structure, and code are new.
 - `/` — Home
 - `/programs` — Kitsune Ryu Jiu-Jitsu, OGKK Goju Ryu Karate, Tai Chi & Qigong
 - `/legacy` — O-Sensei Steve Reynolds history + competition history
+- `/testimonials` — student/parent reviews + a form for new submissions
 - `/instructors` — instructor team
 - `/schedule` — class days/hours and age tracks
 - `/contact` — inquiry form + location/hours/map
@@ -52,10 +53,16 @@ or any Node host that runs `npm run build && npm run start`.
    `public/images/` and I can wire them into the Hero, Programs, and
    Instructors sections (action shots of classes/kata, the physical dojo
    space, and instructor headshots would have the biggest impact).
-2. **Contact form.** `src/components/ContactForm.tsx` currently opens the
-   visitor's email client via a `mailto:` link — it works with zero backend,
-   but a real form handler (Formspree, Resend, etc.) would be more reliable
-   and let you track submissions. Say the word and I'll wire one in.
+2. **Contact form & testimonial submissions.** `src/components/ContactForm.tsx`
+   and `src/components/TestimonialForm.tsx` both currently open the visitor's
+   email client via a `mailto:` link — zero backend needed, but submissions
+   aren't tracked or auto-published. New testimonials land in your inbox and
+   have to be added by hand to `src/lib/testimonials.ts`. A real form handler
+   (Formspree, Resend, etc.) plus a small backend would let reviews post
+   automatically. Say the word and I'll wire one in.
+3. **Real testimonials.** `src/lib/testimonials.ts` currently holds three
+   clearly-labeled placeholder reviews. Swap in real student/parent quotes
+   whenever you have them (or forward me what comes in through the form).
 3. **Instructor bios.** `/instructors` currently lists the three sensei
    named on the old site with no bios (I didn't want to invent
    credentials). Send me real bios/photos and I'll build it out properly.

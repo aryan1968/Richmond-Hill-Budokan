@@ -8,6 +8,7 @@ import BeltBar from "./BeltBar";
 const LINKS = [
   { href: "/programs", label: "Programs" },
   { href: "/legacy", label: "Legacy" },
+  { href: "/testimonials", label: "Testimonials" },
   { href: "/schedule", label: "Schedule" },
   { href: "/instructors", label: "Instructors" },
   { href: "/contact", label: "Contact" },
