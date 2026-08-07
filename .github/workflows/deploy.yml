@@ -1,46 +1,15 @@
-name: Deploy to GitHub Pages
+# DEPRECATED — the site now deploys via Vercel (connected directly to this
+# GitHub repo), not GitHub Pages. Vercel handles builds/deploys automatically
+# on every push, so this workflow no longer runs on push. Kept only for
+# manual/historical reference; safe to delete this whole file whenever you
+# like (Settings → Pages can also be turned back to "None" on GitHub).
+name: Deploy to GitHub Pages (disabled)
 
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - run: npm ci
-
-      - run: npm run build
-        env:
-          GITHUB_PAGES: "true"
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - run: echo "Disabled — this project now deploys via Vercel."

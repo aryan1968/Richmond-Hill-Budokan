@@ -1,19 +1,8 @@
 import type { NextConfig } from "next";
 
-// Static export config for GitHub Pages demo hosting.
-// Set GITHUB_PAGES=true (done automatically by the deploy workflow) to
-// prefix all paths with the repo name, matching the project-pages URL
-// (https://<user>.github.io/<repo>/). Remove this basePath logic once the
-// site moves to its own domain.
-const isGithubPages = process.env.GITHUB_PAGES === "true";
-const repoName = "Richmond-Hill-Budokan";
-
-const nextConfig: NextConfig = {
-  output: "export",
-  trailingSlash: true,
-  images: { unoptimized: true },
-  basePath: isGithubPages ? `/${repoName}` : "",
-  assetPrefix: isGithubPages ? `/${repoName}/` : undefined,
-};
+// Deployed on Vercel — no static export needed. The /admin section requires
+// real server-side rendering (auth checks, live Google Sheets data), which
+// GitHub Pages' static hosting can't do. See docs/PAYMENT-TRACKER-SETUP.md.
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
